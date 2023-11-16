@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Bilal Ahmad Parray",
+    "role": "Batsman",
+    "ranking": 1,
+    "route": "/bilal",
+    "image": "/assets/images/bilal.png"
+  },
+  {
+    "name": "Suhail Ahmad Parray",
+    "role": "Batsman",
+    "ranking": 1,
+    "route": "/suhail",
+    "image": "/assets/images/suhail.png"
+  },
+  {
+    "name": "Sahil Ahmad Parray",
+    "role": "Batsman",
+    "ranking": 1,
+    "route": "/sahil",
+    "image": "/assets/images/sahil.png"
+  },
+  {
+    "name": "Showket Ahmad Parray",
+    "role": "Batsman",
+    "ranking": 1,
+    "route": "/showket",
+    "image": "/assets/images/showket.png"
+  },
+  {
+    "name": "Ahsaan Ahmad Parray",
+    "role": "Batsman",
+    "ranking": 1,
+    "route": "/ehsaan",
+    "image": "/assets/images/ehsaan.png"
+  }
+]
