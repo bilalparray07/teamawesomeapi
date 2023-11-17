@@ -8,11 +8,31 @@ const connectDB = require("./db/connect");
 const { default: mongoose } = require("mongoose");
 const Product = require("./model/product");
 const productFromJson = require("./product.json");
+const cors = require("cors");
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname + "/index.html"));
 });
-
+app.use(cors());
 app.use("/api/products", product_route);
+// Allow CORS for specified origins
+const allowedOrigins = [
+  "http://localhost:4200",
+  "http://localhost:4201",
+  "https://teamawesomesozeith.com",
+];
+
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      // Allow requests from the listed origins, deny others
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
+  })
+);
 
 const start = async () => {
   try {
