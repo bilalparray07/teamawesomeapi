@@ -7,31 +7,68 @@
     "image": "/assets/images/bilal.png"
   },
   {
-    "name": "Suhail Ahmad Parray",
+    "name": "Ubi Obaid",
     "role": "Batsman",
-    "ranking": 1,
-    "route": "/suhail",
-    "image": "/assets/images/suhail.png"
+    "ranking": 2,
+    "route": "/ubi",
+    "image": "/assets/images/ubi.png"
   },
   {
-    "name": "Sahil Ahmad Parray",
+    "name": "Owais Ahmad ",
+    "role": "All Rounder",
+    "ranking": 3,
+    "route": "/owais",
+    "image": "/assets/images/owais.png"
+  },
+
+  {
+    "name": "Ahsaan Ul Haq",
+    "role": "All Rounder",
+    "ranking": 4,
+    "route": "/ehsaan",
+    "image": "/assets/images/ehsaan.png"
+  },
+  {
+    "name": "Muzamil Fayaz",
+    "role": "All Rounder",
+    "ranking": 6,
+    "route": "/muzamil",
+    "image": "/assets/images/muzamil.png"
+  },
+  {
+    "name": "Ishtiyaq Ayoub",
+    "role": "Bowler",
+    "ranking": 7,
+    "route": "/ishtiyaq",
+    "image": "/assets/images/ishtiyaq.png"
+  },
+  {
+    "name": "Sahil Nazir",
     "role": "Batsman",
-    "ranking": 1,
+    "ranking": 8,
     "route": "/sahil",
     "image": "/assets/images/sahil.png"
   },
   {
+    "name": "Zahid Bhat",
+    "role": "Batsman",
+    "ranking": 9,
+    "route": "/zahid",
+    "image": "/assets/images/zahid.png"
+  },
+
+  {
     "name": "Showket Ahmad Parray",
     "role": "Batsman",
-    "ranking": 1,
+    "ranking": 10,
     "route": "/showket",
     "image": "/assets/images/showket.png"
   },
   {
-    "name": "Ahsaan Ahmad Parray",
-    "role": "Batsman",
-    "ranking": 1,
-    "route": "/ehsaan",
-    "image": "/assets/images/ehsaan.png"
+    "name": "Liyaqat Bhat",
+    "role": "Bowler",
+    "ranking": 11,
+    "route": "/liyaqat",
+    "image": "/assets/images/liyaqat.png"
   }
 ]

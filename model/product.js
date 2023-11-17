@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const productSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: true,
+    required: [true, "Name must be entered"],
   },
   role: {
     type: String,
@@ -11,9 +11,15 @@ const productSchema = new mongoose.Schema({
   },
   ranking: {
     type: Number,
+    required: [true, "Ranking must be entered"],
+  },
+  image: {
+    type: String,
+    required: [true, "Image Url must be entered"],
   },
   route: {
     type: String,
+    required: [true, "Route must be entered"],
   },
 });
 
