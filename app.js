@@ -20,6 +20,7 @@ app.use("/api/products/mom", mom_route);
 // Allow CORS for specified origins
 const allowedOrigins = [
   "http://localhost:4200",
+  "http://localhost:3000",
   "http://localhost:4201",
   "https://teamawesomesozeith.com",
 ];
